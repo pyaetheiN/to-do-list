@@ -1,7 +1,8 @@
 body {
+  background-color: beige;
   font-size: 16px;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 ul {
@@ -23,7 +24,14 @@ form {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
   margin: 1rem 0;
+}
+.todo__input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  outline: none;
+  width: 80%;
 }
 .todo__list {
   max-width: 200px;
@@ -34,8 +42,46 @@ form {
   font-size: 1.2em;
   padding-left: 0.5rem;
 }
+.todo__btn {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 0 0.5rem;
+}
 
-.fall {
+.completed__btn,
+.trash__btn {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+.completed__btn {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.completed {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+.uil-check,
+.uil-trash {
+  pointer-events: none;
+}
+
+.filter-todos {
+  border: 1px solid black;
+  outline: none;
+}
+
+.delete-todos {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0 0.5rem;
 }/*# sourceMappingURL=style.css.map */
