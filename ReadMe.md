@@ -1,3 +1,0 @@
-# To Do List Practice
-
-live link: https://pyaethein.github.io/to-do-list/
