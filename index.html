@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Ricky's to do list</h1>
+    </header>
+    <section class="todo__section">
+      <div class="forms">
+        <form class="todo__input--container">
+          <input type="text" class="todo__input">
+          <button type="submit" class="todo__btn">
+            <i class="uil uil-plus"></i>
+          </button>
+        </form>
+        <form class="todo__select--container">
+          <select name="todos" class="filter-todos">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+          </select>
+        </form>
+      </div>
+      <div class="todo__container">
+        <ul class="todo__list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- <i class="uil uil-check"></i> -->
+<!-- <i class="uil uil-trash"></i> -->

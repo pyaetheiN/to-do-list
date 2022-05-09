@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+ul {
+  list-style: none;
+  text-align: initial;
+}
+
+.forms {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  margin: 1rem 0;
+}
+.todo__list {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.todo__item {
+  flex: 1;
+  font-size: 1.2em;
+  padding-left: 0.5rem;
+}
+
+.fall {
+  text-decoration: line-through;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
